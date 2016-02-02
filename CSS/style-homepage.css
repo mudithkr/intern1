@@ -1,0 +1,110 @@
+/*****************************************************************************
+* Homepage for Simplebooklet
+******************************************************************************/
+
+.tabs .indicator {
+	background-color: #4280c5;
+}
+/*
+.modal {
+	width: 90%; max-width: 90%; height: 90%; max-height: 90%;
+}
+*/
+.homepage-demopad {
+	background-image: url(/material/img/material-orange-1200.png); 
+	background-color: #ff9800; 
+	background-repeat:no-repeat;
+	background-position:center center;
+	-o-background-size: 100% 100%, auto;
+	-moz-background-size: 100% 100%, auto;
+	-webkit-background-size: 100% 100%, auto;
+	background-size: 100% 100%, auto;
+}
+
+.homepage-classroom {
+	background-image: url(/material/img/classroom.jpg); 
+	background-color: #ff9800; 
+	background-repeat:no-repeat;
+	background-position:center center;
+	-o-background-size: 100% 100%, auto;
+	-moz-background-size: 100% 100%, auto;
+	-webkit-background-size: 100% 100%, auto;
+	background-size: 100% 100%, auto;
+}
+
+
+p {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+.mid {
+	vertical-align: middle;
+}
+
+.half-line {
+	line-height: 1.5rem;
+}
+
+.line {
+	background-color: #ff9800; 
+	height: 1px; 
+	border: 0 none;
+} 
+
+.homepage-icons {
+	position: relative;
+	color: #ff9800;
+	font-size: 1.8rem !important;
+}
+
+.container {
+    width: 90%;
+    padding: 0 .8rem;
+}
+
+@media only screen and (min-width: 48em) {
+.container {
+	width: 92% !important;
+	}
+}
+
+.lato {
+	font-family: Lato;
+	font-weight: 800;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+a.collection-item {
+    color: #424242;
+}
+
+/*
+ *  STYLE 1
+ */
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #FaFaFa;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #FaFaFa;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #777;
+}
